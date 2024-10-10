@@ -204,8 +204,8 @@ const getValues = function(object, props){
     props.forEach(key => {
         output.push(object[key])
     })
-    
-    //your way--so bad
+
+    //your way--so bad -- he said filter wouldn't work anyways--map could though
     // return Object.entries(object).filter((element) => {
     //     element.unshift()
     //     // arr.push(element.unshift())
